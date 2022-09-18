@@ -1,1 +1,1 @@
-view my webproject using this link: https://mypage-seven.vercel.app/
+view my webproject using only HTML,CSS with this link: https://mypage-seven.vercel.app/
