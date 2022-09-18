@@ -1,0 +1,297 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#navbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+
+    /* justify-content: center; */
+}
+
+#navbar ul {
+    display: flex;
+    
+}
+@media only screen and (max-width:1160px){
+    #navbar ul{
+      flex-direction: column;
+     
+    }
+}
+
+#navbar li {
+    list-style: none;
+}
+
+#navbar li a {
+    display: block;
+    
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+    margin: 20px 0px;
+    padding: 9px 25px;
+}
+@media only screen and (max-width:1160px){
+    #navbar li a{
+        margin: 0px;
+        padding: 9px 25px;
+    }
+}
+
+#navbar ul li a:hover {
+    background-color: rgb(75, 138, 83);
+}
+
+#navbar::before {
+    content: "";
+    position: fixed;
+    top: 0px;
+  
+    background: url('bg.jpg') no-repeat center center/cover;
+    height: 700px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.9;
+
+}
+
+#home {
+    padding: 4px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 300px;
+    /* align-items: stretch; */
+    align-items: center;
+    justify-content: center;
+    animation: cheeta 2s 1;
+
+}
+
+
+#home h1 {
+    font-size: 50px;
+color: white;
+text-shadow: 4px 4px 6px rgb(88, 88, 88);
+
+
+}
+
+#home p {
+    font-size: 25px;
+    text-shadow: 3px 3px 4px black;
+    font-family: 'Dancing Script', cursive;
+}
+
+@keyframes cheeta {
+    from {
+        top: 300px;
+    }
+
+    to {
+        top: 0px;
+    }
+}
+
+
+#about {
+    height: 300px;
+    width: 1000px;
+    
+    padding: 4px;
+    text-align: center;
+    display: flex;
+    position: relative;
+    top: 60px;
+    left: auto;
+    flex-direction: column;
+    flex-shrink: initial;
+    /* align-items: stretch; */
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(75, 138, 83);
+    color: white;
+    transition: all 1s;
+}
+
+#about:hover {
+    transform: scale(1.03);
+}
+
+#about h1 {
+    font-size: 1.8rem;
+ 
+}
+
+#about p {
+    padding: 25px;
+  
+}
+
+#at {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+}
+@media only screen and (max-width:1160px){
+    #about,#at{
+      height: 500px;
+      width: 100%;
+    }
+}
+#explore {
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    color: rgb(75, 138, 83);
+    background-color: white;
+
+}
+@media only screen and (max-width:1160px){
+    #explore{
+      height: 1500px;
+      width: 100%;
+    }
+}
+
+.places {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 240px;
+    width: 290px;
+}
+
+.img {
+    
+    height: 180px;
+    width: 280px;
+}
+
+
+
+#img1 {
+    background: url('delhi1.jpg') center center/cover;
+
+    transition: all 1.7s;
+}
+
+#img2 {
+    background: url('bengal1.jpg') center center/cover;
+    transition: all 1.7s;
+}
+
+#img3 {
+    background: url('kerala1.jpg') center center/cover;
+    transition: all 1.7s;
+}
+
+#img4 {
+    background: url('rajasthan1.jpg') center center/cover;
+    transition: all 1.7s;
+}
+
+.places h2 {
+    padding: 12px;
+}
+
+#img1:hover {
+    background: url('delhi2.jpg') center center/cover;
+    transform: scale(1.1);
+}
+
+#img2:hover {
+    background: url('bengal2.jpg') center center/cover;
+    transform: scale(1.1);
+}
+
+#img3:hover {
+    background: url('kerala2.jpg') center center/cover;
+    transform: scale(1.1);
+}
+
+#img4:hover {
+    background: url('rajasthan2.jpg') center center/cover;
+    transform: scale(1.1);
+}
+
+#contact {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: space-evenly;
+    height: 550px;
+    
+    
+}
+@media only screen and (max-width:1160px){
+    #contact{
+      height: 600px;
+    }
+}
+
+
+#contact h1 {
+    
+    padding: 10px;
+    position: relative;
+    top: 80px;
+    font-size: 40px;
+    color: white;
+    text-decoration: underline;
+}
+
+#contactbox {
+    position: relative;
+    top: 40px;
+}
+#contactbox label{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+#contactbox input, #contactbox textarea{
+    width: 230px;
+    margin: 4px;
+    padding: 5px;
+}
+#contactbox label:hover{
+    font-size: 22px;
+}
+
+#contact::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: url('cp.jpg') no-repeat center center/cover;
+    z-index:-1;
+    opacity: 0.9;
+}
+
+#footer{
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 122px;
+    background:rgb(36, 91, 43);
+    color:white;
+    padding: 9px 20px;
+}
+
+  
+
+  
+  
