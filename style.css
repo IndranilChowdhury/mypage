@@ -182,23 +182,23 @@ text-shadow: 4px 4px 6px rgb(88, 88, 88);
 
 
 #img1 {
-    background: url('delhi1.jpg') center center/cover;
+    background: url('img/delhi1.jpg') center center/cover;
 
     transition: all 1.7s;
 }
 
 #img2 {
-    background: url('bengal1.jpg') center center/cover;
+    background: url('img/bengal1.jpg') center center/cover;
     transition: all 1.7s;
 }
 
 #img3 {
-    background: url('kerala1.jpg') center center/cover;
+    background: url('img/kerala1.jpg') center center/cover;
     transition: all 1.7s;
 }
 
 #img4 {
-    background: url('rajasthan1.jpg') center center/cover;
+    background: url('img/rajasthan1.jpg') center center/cover;
     transition: all 1.7s;
 }
 
@@ -207,22 +207,22 @@ text-shadow: 4px 4px 6px rgb(88, 88, 88);
 }
 
 #img1:hover {
-    background: url('delhi2.jpg') center center/cover;
+    background: url('img/delhi2.jpg') center center/cover;
     transform: scale(1.1);
 }
 
 #img2:hover {
-    background: url('bengal2.jpg') center center/cover;
+    background: url('img/bengal2.jpg') center center/cover;
     transform: scale(1.1);
 }
 
 #img3:hover {
-    background: url('kerala2.jpg') center center/cover;
+    background: url('img/kerala2.jpg') center center/cover;
     transform: scale(1.1);
 }
 
 #img4:hover {
-    background: url('rajasthan2.jpg') center center/cover;
+    background: url('img/rajasthan2.jpg') center center/cover;
     transform: scale(1.1);
 }
 
