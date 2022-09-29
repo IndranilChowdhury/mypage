@@ -266,6 +266,13 @@ text-shadow: 4px 4px 6px rgb(88, 88, 88);
     margin: 4px;
     padding: 5px;
 }
+#submit{
+    border-radius:10px; 
+  
+}
+#submit:hover{
+    background-color:rgb(209, 206, 206);
+}
 #contactbox label:hover{
     font-size: 22px;
 }
